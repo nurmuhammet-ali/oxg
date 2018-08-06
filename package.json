@@ -12,9 +12,12 @@
   },
   "keywords": [
     "load-file",
+    "post",
+    "request",
     "ajax",
     "ajax-library",
     "promise"
   ],
-  "author": "Nurmuhammet Allanov"
+  "author": "Nurmuhammet Allanov",
+  "license": "MIT"
 }

@@ -3,6 +3,19 @@
 Oxg is a very simple ajax library with readable api and cross browser support.
 
 ## Installation
+By yarn
+```bash
+yarn add oxg
+```
+By npm
+```bash
+npm install oxg
+```
+Or by script tag
+```html
+<script src="oxg.js"></script>
+```
+
 ```js
 var oxg = require('./oxg');
 ```

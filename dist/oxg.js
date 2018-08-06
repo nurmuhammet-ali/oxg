@@ -263,9 +263,5 @@ var oxg = function () {
 }();
 
 module.exports = oxg;
-},{}],"app.js":[function(require,module,exports) {
-var oxg = require('./oxg');
-
-oxg.get('file/text.js').then(function (response) {});
-},{"./oxg":"oxg.js"}]},{},["app.js"], null)
-//# sourceMappingURL=/app.map
+},{}]},{},["oxg.js"], null)
+//# sourceMappingURL=/oxg.map

@@ -1,0 +1,20 @@
+{
+  "name": "oxg",
+  "version": "1.0.0",
+  "description": "Simple and fast, readable promise like ajax library for minimalists",
+  "main": "oxg",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nurmuhammet-ali/oxg.git"
+  },
+  "keywords": [
+    "load-file",
+    "ajax",
+    "ajax-library",
+    "promise"
+  ],
+  "author": "Nurmuhammet Allanov"
+}

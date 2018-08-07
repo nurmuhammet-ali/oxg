@@ -11,13 +11,26 @@ By npm
 ```bash
 npm install oxg
 ```
-Or by script tag
+Or by script file
 ```html
 <script src="oxg.js"></script>
 ```
+Of course you can install oxg by cdns  
+unpkg
+```html
+<script src="https://unpkg.com/oxg@1.0.1/dist/oxg.min.js"></script>
+```
+jsDelivr
+```html
+<script src="https://cdn.jsdelivr.net/npm/oxg@1.0.1/dist/oxg.min.js"></script>
+```
+Bundle.run
+```html
+<script src="https://bundle.run/oxg@1.0.1"></script>
+```
 
 ```js
-var oxg = require('./oxg');
+var oxg = require('oxg');
 ```
 Works with [webpack](https://webpack.js.org/), [parcel](https://parceljs.org/) and etc.
 
@@ -30,7 +43,7 @@ oxg.get('/about')
         console.log(response);
     });
 ```
-> Tip: oxg comes with headers like `XMLHttpRequest`, so you don't have to define which header you had to use to make that request
+> Tip: oxg comes with headers like `XMLHttpRequest`, so you don't have to define which header you had to use in order to make the right request. 
 
 ## Post requests
 ```js

@@ -28,10 +28,6 @@ Bundle.run
 ```html
 <script src="https://bundle.run/oxg@1.0.1"></script>
 ```
-
-```js
-var oxg = require('oxg');
-```
 Works with [webpack](https://webpack.js.org/), [parcel](https://parceljs.org/) and etc.
 
 ## Usage, simple get request

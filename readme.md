@@ -59,7 +59,7 @@ oxg.post('/about', {
 
 ## Optional params
 ### `loading()`
-Sometimes ajax requests my take time due to slow server, due to slow internet connection and etc. For those reasons you will to need to show user some type of message so they can realize that requests loads. For triggering any functions when ajax request loads, you can use `loading` method to do that.
+Sometimes ajax requests my take time due to slow server, due to slow internet connection and etc. For those reasons you will to need to show user some type of message so they can realize that requests loads. For triggering any functions when ajax request loads, you can use `loading` method.
 ```js
     oxg.post('/about', {
         email: 'nurmuhammet.ali@mail.com'
@@ -75,7 +75,7 @@ Sometimes ajax requests my take time due to slow server, due to slow internet co
         );
     });
 ```
-Some old browser like IE 8 are caching files that has been already requested. Even if that file has been changed, IE 8 will still load old file in which it might be bad. To disable cache, we can add method `cache()` and give false value to it
+Some old browser like IE 8 are caching files that has been already requested. Even if that file has been changed, IE 8 will still load old file in which it might be bad. To disable cache, we can add method `cache()` and assign false value to it
 ```js
 oxg.get('file.txt')
     .cache(false)
@@ -90,7 +90,7 @@ oxg.get('file.txt')
 > Tip: if you request a `.json` or `.xml` file, oxg will return a parsed  version of the file
 
 ## Oxg Instance
-If you asssing a variable to oxg, it will return oxg instance, which can be userful to determine datas about ajax request, like: ajax response, ajax timeout and others
+If you assign a variable to oxg, it will return oxg instance, which can be useful to determine the data about ajax request, like: ajax response, ajax timeout and others
 ```js
 let oxgInstance = oxg.post('/to', {
         name: 'Nurmuhammet Ali',

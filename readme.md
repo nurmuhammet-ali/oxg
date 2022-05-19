@@ -100,7 +100,7 @@ console.log(oxgInstance);
 
 ### Please, don't hesitate to open an issue.
 
-Contact mail:  [nurmuhammet.ali@mail.com](mailto:nurmuhammet.ali@mail.com)
+Contact mail:  [me@nurmuhammet.com](mailto:me@nurmuhammet.com)
 
 ## [](https://github.com/nurmuhammet-ali/oxg#license)License
 
